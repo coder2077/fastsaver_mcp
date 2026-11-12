@@ -1,0 +1,14 @@
+{
+  "name": "fastsaver",
+  "description": "FastSaver API for AI agents: download media from social media links as JSON.",
+  "owner": {
+    "name": "FastSaver"
+  },
+  "plugins": [
+    {
+      "name": "fastsaver-api",
+      "source": "./",
+      "description": "Agent skill and remote MCP server for FastSaver API: social media links in, direct media URLs out."
+    }
+  ]
+}

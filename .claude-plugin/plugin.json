@@ -1,0 +1,21 @@
+{
+  "name": "fastsaver-api",
+  "version": "1.0.0",
+  "description": "Download media from Instagram, TikTok, YouTube, Pinterest, Facebook, X, Rutube and Likee links as JSON: an agent skill for integrating FastSaver API, plus its remote MCP server.",
+  "author": {
+    "name": "FastSaver"
+  },
+  "homepage": "https://api.fastsaver.io",
+  "repository": "https://github.com/coder2077/fastsaver_mcp",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://api.fastsaver.io/privacy",
+  "keywords": ["instagram", "tiktok", "youtube", "pinterest", "facebook", "twitter", "downloader", "media", "mcp"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "FastSaver API key",
+      "description": "Your key from https://api.fastsaver.io/auth (shown on the dashboard after sign-in). It is sent as the X-Api-Key header to https://mcp.fastsaver.io/mcp.",
+      "sensitive": true
+    }
+  }
+}
