@@ -1,6 +1,6 @@
 {
   "name": "fastsaver-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download media from Instagram, TikTok, YouTube, Pinterest, Facebook, X, Rutube and Likee links as JSON: an agent skill for integrating FastSaver API, plus its remote MCP server.",
   "author": {
     "name": "FastSaver"

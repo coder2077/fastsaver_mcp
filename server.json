@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.fastsaver/api",
+  "title": "FastSaver API",
+  "description": "Instagram, TikTok, YouTube and other social media links to direct media download URLs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://api.fastsaver.io/mcp",
+  "repository": {
+    "url": "https://github.com/coder2077/fastsaver_mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://api.fastsaver.io/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fastsaver.io/mcp",
+      "headers": [
+        {
+          "name": "X-Api-Key",
+          "description": "Your FastSaver API key from https://api.fastsaver.io/auth",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

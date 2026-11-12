@@ -45,6 +45,8 @@ Skills format (https://agentskills.io), so other agents that read
 - Auth: your key in the `X-Api-Key` header, or `Authorization: Bearer <key>`.
   Never put the key in the URL.
 - Listing the tools and `list_supported_platforms` work without a key.
+- [`server.json`](server.json) is its entry for the official MCP Registry
+  (`io.fastsaver/api`).
 
 Claude Code:
 
